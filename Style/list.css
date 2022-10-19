@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'Appetite-Italic';
+	src: url('fonts/appetite-italic.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/appetite-italic.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/appetite-italic.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/appetite-italic.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/appetite-italic.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/appetite-italic.svg#appetite-italic') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+    font-family: 'Beer money';
+    src: local('beer money'), local('beermoney'), url('fonts/beermoney.woff2') format('woff2'), url('fonts/beermoney.woff') format('woff'), url('fonts/beermoney.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color:rgb(216, 228, 228);
+}
+h1{
+    color: rgb(215, 102, 16);
+    font-family: 'Appetite-Italic', sans-serif;
+    font-size: 30pt
+}
+h2{
+    color: rgb(9, 69, 45); 
+}
+h3{
+    color: rgb(14, 46, 149);  
+}
+a{
+    color: rgb(10, 169, 21);
+    font-family: 'Beer money', sans-serif;
+    font-weight:bold;
+    font-size: 20pt;
+}
