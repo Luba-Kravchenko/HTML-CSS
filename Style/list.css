@@ -33,3 +33,7 @@ a{
     font-weight:bold;
     font-size: 20pt;
 }
+.red-bold {
+    color: rgb(185, 23, 23); 
+    font-weight: bold;
+}
